@@ -660,8 +660,7 @@ find_parameters (char **start_dir, ssize_t * start_dir_len,
     in_with->label = content_label;
     widget_disable (WIDGET (in_with), disable);
     add_widget (find_dlg, in_with);
-    only_directories_cbox = check_new (y2++, x2, options.only_directories, file_only_directories_label);
-    add_widget (find_dlg, only_directories_cbox);
+    
 
     //update
 
