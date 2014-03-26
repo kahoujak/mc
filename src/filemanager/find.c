@@ -661,7 +661,6 @@ find_parameters (char **start_dir, ssize_t * start_dir_len,
     widget_disable (WIDGET (in_with), disable);
     add_widget (find_dlg, in_with);
     
-
     //update
 
     content_use_cbox = check_new (y2++, x2, options.content_use, content_use_label);
